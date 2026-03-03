@@ -3,7 +3,7 @@ import { Hexagon } from 'lucide-react';
 
 export function Navbar() {
   return (
-    <motion.nav 
+    <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className="fixed top-0 left-0 right-0 z-50 border-b border-white/5 bg-zinc-950/50 backdrop-blur-md"
